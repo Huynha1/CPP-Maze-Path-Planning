@@ -25,6 +25,7 @@ For example.
 
 #### How to compile and run
 Change directory to code folder and run the command below.
+
 To compile: 
 `g++ -Wall -Werror -std=c++14 -O -o main Node.cpp NodeList.cpp PathPlanner.cpp main.cpp`
 
