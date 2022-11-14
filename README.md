@@ -14,3 +14,8 @@ For example.
 ===.======
 ==========
 ```
+
+`=` Wall
+`.` Path
+`S` Start point
+`G` Goal point
