@@ -16,6 +16,7 @@ For example.
 ```
 
 `=` Wall
+</p>
 `.` Path
 `S` Start point
 `G` Goal point
