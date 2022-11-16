@@ -27,7 +27,7 @@ For example.
 Change directory to code folder and run the command below.
 
 To compile: 
-`g++ -Wall -Werror -std=c++14 -O -o main Node.cpp NodeList.cpp PathPlanner.cpp main.cpp`
+`g++ -Wall -Werror -std=c++14 -O -o <executable name> Node.cpp NodeList.cpp PathPlanner.cpp main.cpp`
 
 To run:
-`./main`
+`./<executable name>`
