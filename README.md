@@ -1,18 +1,28 @@
 # Path Planning Algorithm
 In this project written in C++, a simplified path planning algorithm is implemented for a robot to move about a simple 2D environment which is a rectangular room with obstacles.
-A simple 2D environment will be represented as a grid of ASCII characters. 
+A simple 2D environment will be represented as a 20x20 grid of ASCII characters. 
 For example. 
 ```
-==========
-=S.......=
-========.=
-=......=.=
-==.=.=...=
-=..=..=.==
-=.===.=..=
-=..==G==.=
-===.======
-==========
+====================
+=G..............====
+=.============.=====
+=.==.=========.=====
+=.==.===============
+=.=......=====.=====
+=.====.=.=====.=====
+=......=.=====.=====
+========.=====.=====
+===.==......==.=====
+===.==.=======.=====
+===.==.====.....====
+=......=====.=======
+=.====.=====.====.==
+=.====.==.....===.==
+=.======....S..==.==
+=.======.===.=....==
+=....===.=====.=====
+====...........=====
+====================
 ```
 
 `=` Wall
@@ -36,7 +46,30 @@ To compile:
 To run:
 `./<executable name>`
 
-After running the executable please input a 2D environment similar to the example above.
+After running the executable please input a 2D environment similar to the example above. Output should look similar to the example shown below.
+
+```
+====================
+=G..............====
+=^============.=====
+=^==.=========.=====
+=^==.===============
+=^=...v<<=====.=====
+=^====v=^=====.=====
+=^<<<<<=^=====.=====
+========^=====.=====
+===.==>>^...==.=====
+===.==^=======.=====
+===.==^====.....====
+=>>>>>^=====.=======
+=^====.=====.====.==
+=^====.==.....===.==
+=^======v<<<S..==.==
+=^======v===.=....==
+=^<<<===v=====.=====
+====^<<<<......=====
+====================
+```
 
 ### How to run tests
 Use the diff to compare the actual and expected output of the program.
